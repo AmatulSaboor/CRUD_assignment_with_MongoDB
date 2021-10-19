@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
       if (err) throw err;
       res.render('./index.ejs', {userData});
     });
-    client.close();
+    // client.close();
   });
   console.log("after close, inside read");
 });
@@ -39,7 +39,7 @@ app.post('/add', (req, res) => {
       }
       res.redirect('/');
     });
-    client.close();
+    // client.close();
   });
   console.log("after close, inside add");
 });
@@ -59,7 +59,7 @@ app.get('/delete/:userId', (req, res) => {
       }
       res.redirect('/');
     });
-    client.close();
+    // client.close();
   });
 });
 
@@ -79,7 +79,7 @@ app.post('/edit', (req, res) =>{
       }
       res.redirect('/');
     });
-    client.close();
+    // client.close();
   });
 });
 
