@@ -1,1 +1,2 @@
-# CRUD_assignment_with_MongoDB
+# MERN-CRUD-Assignment-1
+A basic CRUD operation assignment using ejs view engine
